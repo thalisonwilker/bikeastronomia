@@ -37,7 +37,8 @@ module.exports = configure((ctx) => {
         node: 'node20'
       },
 
-      vueRouterMode: 'history', // available values: 'hash', 'history'
+      vueRouterMode: 'hash', // available values: 'hash', 'history'
+      publicPath: '/bikeastronomia/',
 
       alias: {
         'src': path.resolve(__dirname, './src'),
