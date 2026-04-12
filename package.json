@@ -21,7 +21,7 @@
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
-    "@quasar/app-vite": "^1.15.0",
+    "@quasar/app-vite": "^2.0.0",
     "@types/node": "^18.11.18",
     "@typescript-eslint/eslint-plugin": "^5.48.0",
     "@typescript-eslint/parser": "^5.48.0",
