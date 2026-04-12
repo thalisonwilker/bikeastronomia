@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+.quasar/
+.output/
+.vercel/
+.netlify/
+
+# Build outputs
+dist/
+dist-*/
+*.log
+*.gz
+*.zip
+*.tar.gz
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.test
+
+# IDE - VSCode
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+.history/
+*.code-workspace
+
+# IDE - IntelliJ
+.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Testing
+/coverage/
+/.nyc_output/
+/test/unit/coverage/
+/test/e2e/reports/
+/cypress/videos/
+/cypress/screenshots/
+
+# TypeScript
+*.tsbuildinfo
+
+# Prettier / ESLint
+.eslintcache
+.stylelintcache
+
+# Local development
+*.local

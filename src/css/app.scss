@@ -1,0 +1,45 @@
+// app global css in SCSS form
+
+.text-heading {
+  font-family: $heading-font-family;
+}
+
+body {
+  background-color: $dark-page;
+  color: #e8eaf6;
+  font-family: $typography-font-family;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $heading-font-family;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+// Global Glassmorphism utilities
+.glass-panel {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+}
+
+.glow-border {
+  box-shadow: 0 0 15px rgba(108, 59, 170, 0.3);
+  transition: box-shadow 0.3s ease;
+  &:hover {
+    box-shadow: 0 0 25px rgba(108, 59, 170, 0.6);
+  }
+}
+
+// Cosmic Gradients
+.bg-cosmic {
+  background: linear-gradient(135deg, #0a0e2e 0%, #1a1f4d 50%, #6c3baa 100%);
+}
+
+.text-gradient {
+  background: linear-gradient(to right, #f5a623, #ffcc33);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

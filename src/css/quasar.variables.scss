@@ -1,0 +1,24 @@
+// Quasar SCSS (& Sass) Variables
+// --------------------------------------------------
+// To customize the look and feel of this app, you can override
+// the Sass/SCSS variables found in Quasar's source Sass/SCSS files.
+
+// Use @import at the top of this file to override Quasar's variables
+// but beware that it might slow down your compilation.
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Orbitron:wght@400;500;700;900&display=swap');
+
+$primary   : #0a0e2e;
+$secondary : #6c3baa;
+$accent    : #f5a623;
+
+$dark      : #1d1d1d;
+$dark-page : #05071a; // Darker midnight blue for space theme
+
+$positive  : #21BA45;
+$negative  : #C10015;
+$info      : #31CCEC;
+$warning   : #F2C037;
+
+$typography-font-family: 'Inter', '-apple-system', 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$heading-font-family: 'Orbitron', sans-serif !default;

@@ -1,0 +1,102 @@
+import { EducationalAction } from '../types';
+
+export const ACTIONS_MOCK: EducationalAction[] = [
+  {
+    id: '1',
+    slug: 'cine-astronomia',
+    name: 'Cine Astronomia',
+    shortDescription: 'Sessões de cinema seguidas de debates astronômicos.',
+    fullDescription: 'O Cine Astronomia leva a sétima arte para praças e escolas, exibindo documentários e filmes de ficção científica, seguidos por uma roda de conversa conduzida por astrônomos amadores e profissionais.',
+    coverImage: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&q=80&w=1000',
+    gallery: [],
+    tags: ['Cinema', 'Debate', 'Educação'],
+    icon: 'movie',
+    color: '#6c3baa',
+    isActive: true,
+    createdAt: '2023-01-01'
+  },
+  {
+    id: '2',
+    slug: 'foguetes-artesanais',
+    name: 'Foguetes Artesanais',
+    shortDescription: 'Oficinas de construção e lançamento de foguetes de garrafa PET.',
+    fullDescription: 'Uma atividade prática e eletrizante onde os participantes aprendem princípios de física e engenharia espacial construindo e lançando seus próprios foguetes de garrafa PET movidos a ar e água.',
+    coverImage: 'https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?auto=format&fit=crop&q=80&w=1000',
+    gallery: [],
+    tags: ['Oficina', 'STEM', 'Foguetes'],
+    icon: 'rocket_launch',
+    color: '#f5a623',
+    isActive: true,
+    createdAt: '2023-01-01'
+  },
+  {
+    id: '3',
+    slug: 'olimpiada-estudantil',
+    name: 'Olimpíada Estudantil',
+    shortDescription: 'Preparação e suporte para a OBA (Olimpíada Brasileira de Astronomia).',
+    fullDescription: 'A plataforma oferece trilhas de estudo, simulados e mentorias para estudantes que desejam se destacar na Olimpíada Brasileira de Astronomia e Astronáutica (OBA).',
+    coverImage: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&q=80&w=1000',
+    gallery: [],
+    tags: ['OBA', 'Escolas', 'Competição'],
+    icon: 'workspace_premium',
+    color: '#21BA45',
+    isActive: true,
+    createdAt: '2023-01-01'
+  },
+  {
+    id: '4',
+    slug: 'astronomia-na-comunidade',
+    name: 'Astronomia na Comunidade',
+    shortDescription: 'Leva telescópios para bairros periféricos de Belém.',
+    fullDescription: 'Democratizando o acesso à ciência, este programa leva telescópios potentes para praças de bairros distantes, permitindo que todos vejam a Lua e os planetas de perto pela primeira vez.',
+    coverImage: 'https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&q=80&w=1000',
+    gallery: [],
+    tags: ['Social', 'Comunidade', 'Observação'],
+    icon: 'groups',
+    color: '#31CCEC',
+    isActive: true,
+    createdAt: '2023-01-01'
+  },
+  {
+    id: '5',
+    slug: 'cine-astronomia-kids',
+    name: "Cine Astronomia Kid's",
+    shortDescription: 'Astronomia lúdica voltada para o público infantil.',
+    fullDescription: 'Com uma linguagem adaptada e atividades lúdicas, o Cine Astronomia Kid\'s encanta os pequenos com as maravilhas do universo através de animações e oficinas divertidas.',
+    coverImage: 'https://images.unsplash.com/photo-1534067783941-51c9c23ea3d3?auto=format&fit=crop&q=80&w=1000',
+    gallery: [],
+    tags: ['Crianças', 'Lúdico', 'Educação'],
+    icon: 'child_care',
+    color: '#e91e63',
+    isActive: true,
+    createdAt: '2023-01-01'
+  },
+  {
+    id: '6',
+    slug: 'astronomia-praiana',
+    name: 'Astronomia Praiana',
+    shortDescription: 'Observações astronômicas nas praias da ilha de Mosqueiro.',
+    fullDescription: 'Aproveitando o céu limpo das praias de Mosqueiro e região, promovemos noites de contemplação e aprendizado à beira-mar, fugindo um pouco da poluição luminosa do centro urbano.',
+    coverImage: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=1000',
+    gallery: [],
+    tags: ['Praia', 'Natureza', 'Mosqueiro'],
+    icon: 'beach_access',
+    color: '#00bcd4',
+    isActive: true,
+    createdAt: '2023-01-01'
+  },
+  {
+    id: '7',
+    slug: 'encontros-cientificos',
+    name: 'Encontros Científicos',
+    shortDescription: 'Simpósios, cursos e palestras com especialistas.',
+    fullDescription: 'Espaço voltado para o aprofundamento técnico e acadêmico, reunindo estudantes, professores e entusiastas para discutir as fronteiras da astrofísica e da cosmologia.',
+    coverImage: 'https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&q=80&w=1000',
+    gallery: [],
+    tags: ['Academia', 'Ciência', 'Palestras'],
+    icon: 'menu_book',
+    color: '#ff9800',
+    isActive: true,
+    createdAt: '2023-01-01'
+  }
+];
