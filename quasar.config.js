@@ -1,12 +1,7 @@
-const { configure } = require('quasar/wrappers');
-const path = require('node:path');
+import { configure } from 'quasar/wrappers';
+import path from 'node:path';
 
-/*
- * This file runs in a Node context (it's NOT transpiled by Babel), so use only
- * the ES modules syntax that your node version supports.
- */
-
-module.exports = configure((ctx) => {
+export default configure((ctx) => {
   return {
     // https://v2.quasar.dev/quasar-cli-vite/prefetch-feature
     // preFetch: true,
