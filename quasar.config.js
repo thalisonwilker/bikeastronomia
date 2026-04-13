@@ -1,7 +1,7 @@
-import { configure } from 'quasar/wrappers';
-import path from 'node:path';
+const { configure } = require('quasar/wrappers');
+const path = require('node:path');
 
-export default configure((ctx) => {
+module.exports = configure((ctx) => {
   return {
     // https://v2.quasar.dev/quasar-cli-vite/prefetch-feature
     // preFetch: true,
